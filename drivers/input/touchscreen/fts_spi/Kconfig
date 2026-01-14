@@ -8,3 +8,11 @@ config TOUCHSCREEN_ST_FTS_V521_SPI
 
 	  To compile this driver as a module, choose M here: the
 	  module will be called fts_touch_spi.
+
+config TOUCHSCREEN_ST_FTS_DEBUG
+	tristate "Enable debug"
+	depends on TOUCHSCREEN_ST_FTS_V521_SPI
+	help 
+          Say Y here to enable debugging.
+
+          If unsure, say N.
