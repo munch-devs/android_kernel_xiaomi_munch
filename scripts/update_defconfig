@@ -18,7 +18,7 @@ export OUT_DIR
 export ROM_TOP
 
 # Set compiler PATH
-CLANG="$ROM_TOP/prebuilts/clang/host/linux-x86/clang-r596125/bin/"
+CLANG="$ROM_TOP/prebuilts/clang/host/linux-x86/clang-r563880c/bin/"
 export PATH="$CLANG:$PATH"
 
 export ARCH=arm64
